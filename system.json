@@ -1,0 +1,29 @@
+{
+    "name": "faserip",
+    "title": "FASERIP",
+    "description": "Game system for FASERIP in FoundryVTT",
+    "version": "1.0.0",
+    "templateVersion": 2,
+    "author": "Bobby Digital",
+    "scripts": [],
+    "esmodules": [
+        "faserip.mjs"
+    ],
+    "styles": [],
+    "packs": [],
+    "languages": [
+      {
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
+      }
+    ],
+    "socket": false,
+    "initiative": "1d10 + @intuMod",
+    "gridDistance": 44,
+    "gridUnits": "yd",
+    "primaryTokenAttribute": "health",
+    "url": "",
+    "manifest": "",
+    "download": ""
+  }

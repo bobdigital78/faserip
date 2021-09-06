@@ -1,0 +1,39 @@
+{
+    "faserip": {
+        "attributes": {
+            "fighting": "Fighting",
+            "agility": "Agility",
+            "Strength": "Strength",
+            "endurance": "Endurance",
+            "reason": "Reason",
+            "intuition": "Intuition",
+            "psyche": "Psyche"
+        },
+        "secondary": {
+            "health": "Health",
+            "karma": "Karma",
+            "resources": "Resources",
+            "popularity": "Popularity"
+        },
+        "attack": {
+            "blunt": "Blunt",
+            "bluntThrown": "Blunt Thrown",
+            "edged": "Edged",
+            "edgedThrown": "Edged Thrown",
+            "shooting": "Shooting",
+            "energy": "Energy",
+            "force": "Force",
+            "grappling": "Grappling",
+            "charging": "Charging"
+        },
+        "weapon": {
+            "range": "Range",
+            "price": "Price",
+            "damage": "Damage",
+            "type": "Type",
+            "rate": "Rate",
+            "shots": "Shots",
+            "material": "Material Strength"
+        }
+    }
+}

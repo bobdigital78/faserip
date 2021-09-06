@@ -1,0 +1,73 @@
+{
+    "Actor": {
+        "types": ["character"],
+        "templates": {
+            "primary": {
+                "attributes": {
+                    "fighting": {
+                        "value": 10
+                    },
+                    "agility": {
+                        "value": 10
+                    },
+                    "strength": {
+                        "value": 10
+                    },
+                    "endurance": {
+                        "value": 10
+                    },
+                    "reason": {
+                        "value": 10
+                    },
+                    "intuition": {
+                        "value": 10
+                    },
+                    "psyche": {
+                        "value": 10
+                    }
+                }
+            },
+            "secondary": {
+                "health": {
+                    "value": 10,
+                    "min": 0,
+                    "max": 10
+                },
+                "karma": {
+                    "value": 10,
+                    "min": 0,
+                    "max": 10
+                },
+                "resources": {
+                    "value": 10
+                },
+                "popularity": {
+                    "value": 10
+                }
+            }
+        },
+    "character": {
+        "templates": [ "primary", "secondary"]
+    }
+    },
+    "Item": {
+        "types": [ "weapon", "power", "talent", "contacts"],
+        "templates": {
+            "description": ""
+        },
+
+        "weapon": {
+            "range": {
+                "value": 10
+            },
+            "price": 10,
+            "damge": 10,
+            "type": "shooting",
+            "rate": 1,
+            "shots": 1,
+            "material": {
+                "value": 10
+            }
+        }
+    }
+}
