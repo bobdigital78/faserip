@@ -1,6 +1,6 @@
 {
     "Actor": {
-        "types": ["character"],
+        "types": ["character", "support", "animal", "vehicle"],
         "templates": {
             "primary": {
                 "attributes": {
@@ -48,15 +48,54 @@
         },
     "character": {
         "templates": [ "primary", "secondary"]
-    }
+    },
+    "support": {
+        "templates": [ "primary" ],
+        "health": {
+            "value": 10,
+            "min": 0,
+            "max": 10
+        },
+        "karma": {
+            "value": 10,
+            "min": 0,
+            "max": 10
+        }
+    },
+    "animal": {
+        "templates": ["primary"],
+        "health": {
+            "value": 10,
+            "min": 0,
+            "max": 10
+        }
+    },
+    "vechicle": {
+        "type": "road",
+        "cost": {
+            "value": 10
+        },
+        "control": {
+            "value": 10
+        },
+        "speed": {
+            "value": 10
+        },
+        "body": {
+            "value": 10
+        },
+        "protection": {
+            "value": 10
+        }
+    }   
     },
     "Item": {
         "types": [ "weapon", "power", "talent", "contacts"],
         "templates": {
             "description": ""
         },
-
         "weapon": {
+            "templates": [ "description" ],
             "range": {
                 "value": 10
             },
@@ -68,6 +107,26 @@
             "material": {
                 "value": 10
             }
+        },
+        "power": {
+            "powerType": "",
+            "powerRank": "",
+            "powerStunts": "",
+            "powerRange": "",
+            "powerArea": "",
+            "powerDescription": "",
+            "powerLimitations": ""
+        },
+        "talent": {
+            "templates": ["description"],
+            "talentBonus": "",
+            "talentAttribute": ""
+        },
+        "contact": {
+            "templates": ["description"],
+            "contactName": "",
+            "contactOccupation": "",
+            "contactTies": ""
         }
     }
 }
