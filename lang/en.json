@@ -3,7 +3,7 @@
         "attributes": {
             "fighting": "Fighting",
             "agility": "Agility",
-            "Strength": "Strength",
+            "strength": "Strength",
             "endurance": "Endurance",
             "reason": "Reason",
             "intuition": "Intuition",
@@ -33,7 +33,7 @@
             "type": "Type",
             "rate": "Rate",
             "shots": "Shots",
-            "material": "Material Strength"
+            "material": "Material"
         }
     }
 }

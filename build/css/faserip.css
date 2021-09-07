@@ -1,0 +1,19 @@
+.sheet form {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.sheet-content {
+  height: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.sheet-content .table {
+  border-collapse: collapse;
+}
+.sheet-content .editor {
+  height: 100%;
+}

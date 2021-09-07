@@ -9,7 +9,9 @@
     "esmodules": [
         "faserip.mjs"
     ],
-    "styles": [],
+    "styles": [
+      "build/css/faserip.css"
+    ],
     "packs": [],
     "languages": [
       {

@@ -1,0 +1,21 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <div class="sidebar">
+        {{#if (eq actor.type "character")}}
+        <h1 class="origin">
+            <div data-edit="data.origin" contenteditable>
+               {{data.data.origin}} 
+            </div>
+        </h1>
+        {{/if}}
+        <img src="{{actor.img}}" data-edit="img" title="{{data.actor.name}}" />
+        <div class="attributes">
+            {{> "systems/faserip/templates/partials/character-attributes.hbs"}}
+            <section class="weapon-list">
+                {{#each weapons as |weapon id|}}
+                {{> "systems/faserip/templates/partials/weapon-card.hbs"}}
+                {{/each}}
+            </section>
+        </div>
+
+    </div>
+</form>

@@ -47,7 +47,25 @@
             }
         },
     "character": {
-        "templates": [ "primary", "secondary"]
+        "templates": [ "primary", "secondary"],
+        "origin": "",
+        "heroName": "",
+        "secretID": "",
+        "groupAffliation": "",
+        "powers": "",
+        "talents": "",
+        "contacts": "",
+        "limitations": "",
+        "karmaAdvancementFund": {
+            "value": 10,
+            "min": 0,
+            "max": 10
+        },
+        "karmaPool": {
+            "value": 10,
+            "min": 0,
+            "max": 10
+        }
     },
     "support": {
         "templates": [ "primary" ],
@@ -92,15 +110,17 @@
     "Item": {
         "types": [ "weapon", "power", "talent", "contacts"],
         "templates": {
-            "description": ""
+            "itemDescription": {
+                "description": ""
+            }
         },
         "weapon": {
-            "templates": [ "description" ],
+            "templates": [ "itemDescription" ],
             "range": {
                 "value": 10
             },
             "price": 10,
-            "damge": 10,
+            "damage": 10,
             "type": "shooting",
             "rate": 1,
             "shots": 1,
