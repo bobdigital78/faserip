@@ -3,7 +3,7 @@
         "types": ["character", "support", "animal", "vehicle"],
         "templates": {
             "primary": {
-                "attributes": {
+                "attribute": {
                     "fighting": {
                         "value": 10
                     },

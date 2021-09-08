@@ -34,6 +34,64 @@
             "rate": "Rate",
             "shots": "Shots",
             "material": "Material"
+        },
+        "initalRankValues": {
+            "1": "Feeble",
+            "3": "Poor",
+            "5": "Typical",
+            "6": "Good",
+            "16": "Exceelent",
+            "26": "Remarkable",
+            "36": "Incredible",
+            "46": "Amazing",
+            "63": "Monstrus"
+        },
+        "baseRankValues": {
+            "0": "Shift 0",
+            "2": "Feeble",
+            "4": "Poor",
+            "6": "Typical",
+            "10": "Good",
+            "20": "Excellent",
+            "30": "Remarkable",
+            "40": "Incredible",
+            "50": "Amazing",
+            "75": "Monstrous",
+            "100": "Unearthly",
+            "150": "Shift X",
+            "200": "Shift Y",
+            "500": "Shift Z",
+            "1000": "Slass 1000",
+            "3000": "Class 3000",
+            "5000": "Class 5000"
+        },
+        "rankValueNames": {
+            "0": "Shift 0",
+            "fe": "Feeble",
+            "pr": "Poor",
+            "ty": "Typical",
+            "gd": "Good",
+            "ex": "Excellent",
+            "rm": "Remarkable",
+            "in": "Incredible",
+            "am": "Amazing",
+            "mn": "Monstrous",
+            "un": "Unearthly",
+            "sx": "Shift X",
+            "sy": "Shift Y",
+            "sz": "Shift Z",
+            "c1000": "Class 1000",
+            "c3000": "Class 3000",
+            "c5000": "Class 5000",
+            "bd": "Beyond"
+        },
+        "characterOrigins": {
+            "altHum": "Altered Human",
+            "mut": "Mutant",
+            "hiTec": "High Technology",
+            "robo": "Robot",
+            "ali": "Alien",
+            "norms": "Normal Folks" 
         }
     }
 }
