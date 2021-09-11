@@ -5,24 +5,31 @@
             "primary": {
                 "attribute": {
                     "fighting": {
+                        "rankValue": "",
                         "value": 10
                     },
                     "agility": {
+                        "rankValue": "",
                         "value": 10
                     },
                     "strength": {
+                        "rankValue": "",
                         "value": 10
                     },
                     "endurance": {
+                        "rankValue": "",
                         "value": 10
                     },
                     "reason": {
+                        "rankValue": "",
                         "value": 10
                     },
                     "intuition": {
+                        "rankValue": "",
                         "value": 10
                     },
                     "psyche": {
+                        "rankValue": "",
                         "value": 10
                     }
                 }
@@ -34,12 +41,11 @@
                     "max": 10
                 },
                 "karma": {
-                    "value": 10,
-                    "min": 0,
-                    "max": 10
+                    "value": 10
                 },
                 "resources": {
-                    "value": 10
+                    "rankValue": "",
+                    "value": ""
                 },
                 "popularity": {
                     "value": 10
@@ -48,13 +54,8 @@
         },
     "character": {
         "templates": [ "primary", "secondary"],
-        "origin": "",
-        "heroName": "",
-        "secretID": "",
+        "secretID": "Steve Rogers",
         "groupAffliation": "",
-        "powers": "",
-        "talents": "",
-        "contacts": "",
         "limitations": "",
         "karmaAdvancementFund": {
             "value": 10,
@@ -130,12 +131,19 @@
         },
         "power": {
             "powerType": "",
-            "powerRank": "",
+            "powerRank": {
+                "rankValue": "",
+                "value":10
+            },
             "powerStunts": "",
-            "powerRange": "",
-            "powerArea": "",
+            "powerRange": {
+                "value":10
+            },
+            "powerArea": {
+                "value":10
+            },
             "powerDescription": "",
-            "powerLimitations": ""
+            "powerLimitation": ""
         },
         "talent": {
             "templates": ["description"],

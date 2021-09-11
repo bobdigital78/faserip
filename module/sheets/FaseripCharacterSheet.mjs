@@ -1,11 +1,11 @@
 export default class FaseripCharacterSheet extends ActorSheet {
     static get defaultOptions() {
         return mergeObject(super.defaultOptions, {
-          classes: ["faserip", "sheet", "character"],
+          classes: ["faserip", "sheet", "actor", "character"],
           template: "systems/faserip/templates/actor/character-sheet.hbs",
-          width: 600,
-          height: 600,
-          tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "features"}]
+          width: 720,
+          height: 680,
+          tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "attributes"}]
         });
       }
 

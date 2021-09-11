@@ -10,7 +10,7 @@
         "faserip.mjs"
     ],
     "styles": [
-      "build/css/faserip.css"
+      "build/less/faserip.css"
     ],
     "packs": [],
     "languages": [
